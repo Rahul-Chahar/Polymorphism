@@ -7,4 +7,13 @@
 package polymorphism;
 
 public class PolymorphismUsingOverriding {
+    public void display() {
+        System.out.println("Super Display");
+    }
+}
+
+class Sub extends PolymorphismUsingOverriding {
+    public void display() {
+        System.out.println("Sub Display");
+    }
 }

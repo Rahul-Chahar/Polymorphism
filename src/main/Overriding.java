@@ -6,5 +6,13 @@
 
 package main;
 
+import polymorphism.PolymorphismUsingOverriding;
+
 public class Overriding {
+    public static void main(String[] args) {
+        PolymorphismUsingOverriding p = new PolymorphismUsingOverriding();
+        p.display();
+
+        System.out.println("Method overriding used for Run Time Polymorphism");
+    }
 }
